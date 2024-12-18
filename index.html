@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Octave</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Octave</h1>
+    </header>
+    <div class="container">
+      <form id="genreForm">
+        <table class="genre-table">
+          <tr>
+            <th colspan="4">Select Music Genres</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="genres" value="acoustic" /> Acoustic
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="alt-rock" /> Alt Rock
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="ambient" /> Ambient
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="black-metal" /> Black
+              Metal
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="blues" /> Blues</td>
+            <td>
+              <input type="checkbox" name="genres" value="bossanova" /> Bossa
+              Nova
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="classical" />
+              Classical
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="country" /> Country
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="dance" /> Dance</td>
+            <td>
+              <input type="checkbox" name="genres" value="death-metal" /> Death
+              Metal
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="deep-house" /> Deep
+              House
+            </td>
+            <td><input type="checkbox" name="genres" value="disco" /> Disco</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="genres" value="dubstep" /> Dubstep
+            </td>
+            <td><input type="checkbox" name="genres" value="edm" /> EDM</td>
+            <td>
+              <input type="checkbox" name="genres" value="electro" /> Electro
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="electronic" />
+              Electronic
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="emo" /> Emo</td>
+            <td><input type="checkbox" name="genres" value="folk" /> Folk</td>
+            <td><input type="checkbox" name="genres" value="funk" /> Funk</td>
+            <td><input type="checkbox" name="genres" value="goth" /> Goth</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="genres" value="grindcore" />
+              Grindcore
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="groove" /> Groove
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="grunge" /> Grunge
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="guitar" /> Guitar
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="genres" value="hard-rock" /> Hard
+              Rock
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="hardcore" /> Hardcore
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="heavy-metal" /> Heavy
+              Metal
+            </td>
+            <td>
+              <input type="checkbox" name="genres" value="hip-hop" /> Hip Hop
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="indie" /> Indie</td>
+            <td>
+              <input type="checkbox" name="genres" value="indie-pop" /> Indie
+              Pop
+            </td>
+            <td><input type="checkbox" name="genres" value="j-pop" /> J-Pop</td>
+            <td>
+              <input type="checkbox" name="genres" value="j-rock" /> J-Rock
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="jazz" /> Jazz</td>
+            <td><input type="checkbox" name="genres" value="k-pop" /> K-Pop</td>
+            <td><input type="checkbox" name="genres" value="metal" /> Metal</td>
+            <td>
+              <input type="checkbox" name="genres" value="metalcore" />
+              Metalcore
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="piano" /> Piano</td>
+            <td><input type="checkbox" name="genres" value="pop" /> Pop</td>
+            <td><input type="checkbox" name="genres" value="punk" /> Punk</td>
+            <td>
+              <input type="checkbox" name="genres" value="punk-rock" /> Punk
+              Rock
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="r-n-b" /> R&B</td>
+            <td>
+              <input type="checkbox" name="genres" value="reggae" /> Reggae
+            </td>
+            <td><input type="checkbox" name="genres" value="rock" /> Rock</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="genres" value="soul" /> Soul</td>
+          </tr>
+        </table>
+        <button type="reset">Clear</button>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="recommendations"></div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; Octave 2024</p>
+    </footer>
+
+    <script src="recommender-system.js" defer></script>
+    <script>
+      document
+        .getElementById("genreForm")
+        .addEventListener("submit", async function (event) {
+          event.preventDefault();
+          const selectedGenres = {};
+          document
+            .querySelectorAll('input[name="genres"]:checked')
+            .forEach((checkbox) => {
+              selectedGenres[checkbox.value] = 5; // Assuming a fixed rating of 5 for simplicity
+            });
+
+          const messageDiv = document.getElementById("message");
+          if (!messageDiv) {
+            const newMessageDiv = document.createElement("div");
+            newMessageDiv.id = "message";
+            document.querySelector(".container").appendChild(newMessageDiv);
+          }
+
+          if (
+            Object.keys(selectedGenres).length < 5 ||
+            Object.keys(selectedGenres).length > 5
+          ) {
+            document.getElementById("message").innerText =
+              "Please select exactly 5 genres.";
+            return;
+          } else {
+            document.getElementById("message").innerText = "";
+          }
+
+          try {
+            const response = await fetch("users.json");
+            const users = await response.json();
+            const recommendedArtists = recommendArtists(selectedGenres, users);
+            const recommendationsDiv =
+              document.getElementById("recommendations");
+            recommendationsDiv.innerHTML =
+              "<h2>Recommended Artists:</h2><ul>" +
+              recommendedArtists
+                .map((artist) => `<li>${artist}</li>`)
+                .join("") +
+              "</ul>";
+          } catch (error) {
+            console.error("Error fetching users:", error);
+          }
+        });
+    </script>
+  </body>
+</html>

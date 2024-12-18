@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "name": "Rinko",
+    "genres": {
+      "rock": 5,
+      "pop": 4,
+      "jazz": 3,
+      "hip-hop": 2,
+      "classical": 5
+    },
+    "artists": [
+      "Queen",
+      "Taylor Swift",
+      "Kendrick Lamar",
+      "Kanye West",
+      "Ludwig van Beethoven"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jamal",
+    "genres": {
+      "blues": 5,
+      "country": 4,
+      "electronic": 3,
+      "reggae": 5,
+      "soul": 4,
+      "alt-rock": 3
+    },
+    "artists": [
+      "B.B. King",
+      "Johnny Cash",
+      "Daft Punk",
+      "Bob Marley",
+      "Aretha Franklin"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Jomarie",
+    "genres": {
+      "metal": 5,
+      "folk": 4,
+      "disco": 3,
+      "funk": 5,
+      "black-metal": 2
+    },
+    "artists": [
+      "Metallica",
+      "Bob Dylan",
+      "Bee Gees",
+      "James Brown",
+      "Burzum"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dave",
+    "genres": {
+      "punk": 3,
+      "r&b": 5
+    },
+    "artists": [
+      "The Ramones",
+      "Usher",
+      "The Specials"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Robien",
+    "genres": {
+      "rock": 5,
+      "pop": 4,
+      "jazz": 3,
+      "hip-hop": 5,
+      "classical": 4
+    },
+    "artists": [
+      "The Beatles",
+      "Ariana Grande",
+      "John Coltrane",
+      "Drake",
+      "Johann Sebastian Bach"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "James",
+    "genres": {
+      "blues": 5,
+      "country": 4,
+      "electronic": 3,
+      "reggae": 5,
+      "soul": 4
+    },
+    "artists": [
+      "Muddy Waters",
+      "Dolly Parton",
+      "Calvin Harris",
+      "Peter Tosh",
+      "Marvin Gaye"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Percy",
+    "genres": {
+      "metal": 5,
+      "folk": 4,
+      "disco": 3,
+      "funk": 5
+    },
+    "artists": [
+      "Iron Maiden",
+      "Joan Baez",
+      "Chic",
+      "Sly and the Family Stone"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Donz",
+    "genres": {
+      "punk": 3,
+      "r&b": 5
+    
+    },
+    "artists": [
+      "Green Day",
+      "Beyoncé",
+      "Madness"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Yanz",
+    "genres": {
+      "rock": 5,
+      "pop": 4,
+      "jazz": 3,
+      "hip-hop": 2,
+      "classical": 5
+    },
+    "artists": [
+      "Led Zeppelin",
+      "Katy Perry",
+      "Duke Ellington",
+      "Jay-Z",
+      "Wolfgang Amadeus Mozart"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Venice",
+    "genres": {
+      "blues": 5,
+      "country": 4,
+      "electronic": 3,
+      "reggae": 5,
+      "soul": 4
+    },
+    "artists": [
+      "John Lee Hooker",
+      "Willie Nelson",
+      "Deadmau5",
+      "Jimmy Cliff",
+      "Otis Redding"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Clara",
+    "genres": {
+      "indie": 4,
+      "indie-pop": 5,
+      "pop": 3
+    },
+    "artists": [
+      "Bon Iver",
+      "Lorde",
+      "Eraserheads"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Liam",
+    "genres": {
+      "metalcore": 5,
+      "hardcore": 4,
+      "alt-rock": 3,
+      "punk-rock": 5,
+      "grunge": 4
+    },
+    "artists": [
+      "Bring Me the Horizon",
+      "Converge",
+      "Nirvana",
+      "The Offspring",
+      "Tame Impala"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Aria",
+    "genres": {
+      "classical": 5,
+      "j-pop": 4,
+      "piano": 3
+    },
+    "artists": [
+      "Yiruma",
+      "Kenshi Yonezu",
+      "Rachmaninoff"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Marcus",
+    "genres": {
+      "hard-rock": 5,
+      "heavy-metal": 4,
+      "death-metal": 3,
+      "j-rock": 5
+    },
+    "artists": [
+      "AC/DC",
+      "Slayer",
+      "Slipknot",
+      "X Japan"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Hannah",
+    "genres": {
+      "k-pop": 5,
+      "funk": 4,
+      "pop": 3
+    },
+    "artists": [
+      "BTS",
+      "Rihanna",
+      "Bruno Mars",
+      "Mariah Carey"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Nina",
+    "genres": {
+      "folk": 5,
+      "guitar": 4,
+      "indie": 3,
+      "jazz": 5
+    },
+    "artists": [
+      "Fleet Foxes",
+      "Norah Jones",
+      "Bebel Gilberto",
+      "Nicolas Jaar"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Andre",
+    "genres": {
+      "dubstep": 5,
+      "house": 4,
+      "electronic": 3
+    },
+    "artists": [
+      "Skrillex",
+      "Disclosure",
+      "Calvin Harris"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Sophia",
+    "genres": {
+      "anime": 5,
+      "new-age": 4,
+      "piano": 3
+    },
+    "artists": [
+      "Joe Hisaishi",
+      "Erik Satie",
+      "Ben&Ben"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Ethan",
+    "genres": {
+      "alt-rock": 5,
+      "black-metal": 4,
+      "emo": 3,
+      "goth": 5,
+      "hardcore": 4
+    },
+    "artists": [
+      "Radiohead",
+      "Darkthrone",
+      "My Chemical Romance",
+      "Bauhaus",
+      "Converge"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Mira",
+    "genres": {
+      "anime": 5,
+      "edm": 4,
+      "k-pop": 3,
+      "electronic": 5
+    },
+    "artists": [
+      "Kyary Pamyu Pamyu",
+      "Armin van Buuren",
+      "Taeyang",
+      "Zedd",
+      "Parokya ni Edgar"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Alex",
+    "genres": {
+      "acoustic": 5,
+      "alt-rock": 4,
+      "ambient": 3,
+      "black-metal": 5,
+      "folk": 4
+    },
+    "artists": [
+      "Ed Sheeran",
+      "Radiohead",
+      "Brian Eno",
+      "Burzum",
+      "Alison Krauss"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Bella",
+    "genres": {
+      "blues": 5,
+      "bossanova": 4,
+      "electronic": 3,
+      "reggae": 5,
+      "soul": 4
+    },
+    "artists": [
+      "B.B. King",
+      "João Gilberto",
+      "Daft Punk",
+      "Bob Marley",
+      "Aretha Franklin"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Charlie",
+    "genres": {
+      "classical": 5,
+      "country": 4,
+      "dance": 3,
+      "pop": 5
+    },
+    "artists": [
+      "Ludwig van Beethoven",
+      "Dolly Parton",
+      "David Guetta",
+      "Taylor Swift"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Diana",
+    "genres": {
+      "death-metal": 5,
+      "deep-house": 4,
+      "disco": 3,
+      "electronic": 5,
+      "hip-hop": 4
+    },
+    "artists": [
+      "Cannibal Corpse",
+      "MK",
+      "Bee Gees",
+      "Kanye West",
+      "Goldie"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Eli",
+    "genres": {
+      "dubstep": 5,
+      "edm": 4,
+      "electro": 3,
+      "emo": 5,
+      "folk": 4
+    },
+    "artists": [
+      "Skrillex",
+      "David Guetta",
+      "Kraftwerk",
+      "My Chemical Romance",
+      "Bob Dylan"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Finn",
+    "genres": {
+      "funk": 5,
+      "garage": 4,
+      "goth": 3,
+      "grunge": 5
+    },
+    "artists": [
+      "James Brown",
+      "The Strokes",
+      "The Cure",
+      "Nirvana"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Gina",
+    "genres": {
+      "grindcore": 5,
+      "groove": 4,
+      "hard-rock": 3,
+      "hardcore": 5
+    },
+    "artists": [
+      "Napalm Death",
+      "Pantera",
+      "AC/DC",
+      "Bad Brains"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Hank",
+    "genres": {
+      "heavy-metal": 5,
+      "hip-hop": 4,
+      "electronic": 3
+    },
+    "artists": [
+      "Metallica",
+      "Kanye West",
+      "Aphex Twin"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Ivy",
+    "genres": {
+      "indie": 5,
+      "indie-pop": 4,
+      "j-pop": 3
+    },
+    "artists": [
+      "The Strokes",
+      "Lorde",
+      "Kenshi Yonezu"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Jack",
+    "genres": {
+      "j-rock": 5,
+      "jazz": 4,
+      "k-pop": 3,
+      "pop": 5
+    },
+    "artists": [
+      "X Japan",
+      "Kendrick Lamar",
+      "BTS",
+      "Taylor Swift"
+    ]
+  }
+]

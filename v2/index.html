@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Recommendation System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .genre-selector {
+        margin-bottom: 20px;
+      }
+      .genre-selector label {
+        margin-right: 10px;
+      }
+      .recommendations {
+        margin-top: 20px;
+      }
+      .recommendation-item {
+        margin: 5px 0;
+      }
+      .new-genre {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Artist Recommendation System</h1>
+
+      <!-- Genre Selection Form -->
+      <div class="genre-selector">
+        <h2>Select Your Favorite Genres</h2>
+        <form id="genre-form">
+          <label>
+            <input type="checkbox" name="genres" value="EDM" /> EDM
+          </label>
+          <label>
+            <input type="checkbox" name="genres" value="Dubstep" /> Dubstep
+          </label>
+          <label>
+            <input type="checkbox" name="genres" value="House" /> House
+          </label>
+          <label>
+            <input type="checkbox" name="genres" value="Rock" /> Rock
+          </label>
+          <label>
+            <input type="checkbox" name="genres" value="Reggae" /> Reggae
+          </label>
+          <label>
+            <input type="checkbox" name="genres" value="Blues" /> Blues
+          </label>
+          <label>
+            <input type="checkbox" name="genres" value="Pop" /> Pop
+          </label>
+          <!-- Add more genres as needed -->
+        </form>
+        <button id="getRecommendations">Get Recommendations</button>
+      </div>
+
+      <!-- Add New Genre -->
+      <div class="new-genre">
+        <h2>Add a New Genre</h2>
+        <input type="text" id="new-genre-input" placeholder="Enter new genre" />
+        <button id="addGenre">Add Genre</button>
+      </div>
+
+      <!-- Display Recommended Artists -->
+      <div class="recommendations">
+        <h2>Recommended Artists</h2>
+        <ul id="recommendations-list">
+          <!-- Recommended artists will be displayed here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="artistGenreMap.js"></script>
+    <script>
+      // Example User Data (For testing purposes)
+      const users = [
+        {
+          name: "User1",
+          genres: { EDM: 8, Rock: 4, Pop: 6 },
+          artists: ["Skrillex", "Radiohead", "Bob Dylan"],
+        },
+        {
+          name: "User2",
+          genres: { EDM: 10, House: 7, Blues: 5 },
+          artists: ["Calvin Harris", "David Guetta", "Muddy Waters"],
+        },
+        // More users can be added here
+      ];
+
+      // Function to collect selected genres from the form
+      function getSelectedGenres() {
+        const selectedGenres = [];
+        const checkboxes = document.querySelectorAll(
+          'input[name="genres"]:checked'
+        );
+        checkboxes.forEach((checkbox) => selectedGenres.push(checkbox.value));
+        return selectedGenres.reduce((acc, genre) => {
+          acc[genre] = 1; // A simple flag that indicates the genre is selected
+          return acc;
+        }, {});
+      }
+
+      // Function to add a new genre to the form
+      function addNewGenre(genre) {
+        const genreForm = document.getElementById("genre-form");
+        const label = document.createElement("label");
+        label.innerHTML = `<input type="checkbox" name="genres" value="${genre}" /> ${genre}`;
+        genreForm.appendChild(label);
+      }
+
+      // Event listener for the "Add Genre" button
+      document
+        .getElementById("addGenre")
+        .addEventListener("click", function () {
+          const newGenreInput = document.getElementById("new-genre-input");
+          const newGenre = newGenreInput.value.trim();
+          if (newGenre) {
+            addNewGenre(newGenre);
+            newGenreInput.value = ""; // Clear the input field
+          } else {
+            alert("Please enter a genre.");
+          }
+        });
+
+      // Event listener for the "Get Recommendations" button
+      document
+        .getElementById("getRecommendations")
+        .addEventListener("click", function () {
+          const selectedGenres = getSelectedGenres();
+          if (Object.keys(selectedGenres).length === 0) {
+            alert("Please select at least one genre.");
+            return;
+          }
+
+          // Call the recommendArtists function
+          const recommendedArtists = recommendArtists(selectedGenres, users);
+
+          // Display the recommended artists
+          const recommendationsList = document.getElementById(
+            "recommendations-list"
+          );
+          recommendationsList.innerHTML = ""; // Clear previous results
+          recommendedArtists.forEach((artist) => {
+            const listItem = document.createElement("li");
+            listItem.classList.add("recommendation-item");
+            listItem.textContent = artist;
+            recommendationsList.appendChild(listItem);
+          });
+        });
+
+      // Function to recommend artists based on selected genres
+      function recommendArtists(selectedGenres, users) {
+        const recommendedArtists = new Set();
+        users.forEach((user) => {
+          Object.keys(selectedGenres).forEach((genre) => {
+            if (user.genres[genre]) {
+              user.artists.forEach((artist) => recommendedArtists.add(artist));
+            }
+          });
+        });
+        return Array.from(recommendedArtists);
+      }
+    </script>
+  </body>
+</html>

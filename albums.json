@@ -1,0 +1,200 @@
+[
+    {
+      "artist": "Queen",
+      "albums": [
+        {
+          "title": "A Night at the Opera",
+          "tracks": [
+            "Death on Two Legs (Dedicated to...)",
+            "Lazing on a Sunday Afternoon",
+            "I'm in Love with My Car",
+            "You're My Best Friend",
+            "39",
+            "Sweet Lady",
+            "Seaside Rendezvous",
+            "The Prophet's Song",
+            "Love of My Life",
+            "Good Company",
+            "Bohemian Rhapsody",
+            "God Save the Queen"
+          ]
+        },
+        {
+          "title": "News of the World",
+          "tracks": [
+            "We Will Rock You",
+            "We Are the Champions",
+            "Sheer Heart Attack",
+            "All Dead, All Dead",
+            "Spread Your Wings",
+            "Fight from the Inside",
+            "Get Down, Make Love",
+            "Sleeping on the Sidewalk",
+            "Who Needs You",
+            "It's Late",
+            "My Melancholy Blues"
+          ]
+        }
+        
+      ]
+    },
+    {
+      "artist": "Taylor Swift",
+      "albums": [
+        {
+          "title": "Fearless",
+          "tracks": [
+            "Fearless",
+            "Fifteen",
+            "Love Story",
+            "Hey Stephen",
+            "White Horse",
+            "You Belong with Me",
+            "Breathe",
+            "Tell Me Why",
+            "You're Not Sorry",
+            "The Way I Loved You",
+            "Forever & Always",
+            "The Best Day",
+            "Change"
+          ]
+        },
+        {
+          "title": "1989",
+          "tracks": [
+            "Welcome to New York",
+            "Blank Space",
+            "Style",
+            "Out of the Woods",
+            "All You Had to Do Was Stay",
+            "Shake It Off",
+            "I Wish You Would",
+            "Bad Blood",
+            "Wildest Dreams",
+            "How You Get the Girl",
+            "This Love",
+            "I Know Places",
+            "Clean"
+          ]
+        }
+        
+      ]
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "albums": [
+        {
+          "title": "good kid, m.A.A.d city",
+          "tracks": [
+            "Sherane a.k.a Master Splinter’s Daughter",
+            "Bitch, Don't Kill My Vibe",
+            "Backseat Freestyle",
+            "The Art of Peer Pressure",
+            "Money Trees",
+            "Poetic Justice",
+            "good kid",
+            "m.A.A.d city",
+            "Swimming Pools (Drank)",
+            "Sing About Me, I'm Dying of Thirst",
+            "Real",
+            "Compton"
+          ]
+        },
+        {
+          "title": "DAMN.",
+          "tracks": [
+            "BLOOD.",
+            "DNA.",
+            "YAH.",
+            "ELEMENT.",
+            "FEEL.",
+            "LOYALTY.",
+            "PRIDE.",
+            "HUMBLE.",
+            "LUST.",
+            "LOVE.",
+            "XXX.",
+            "FEAR.",
+            "GOD.",
+            "DUCKWORTH."
+          ]
+        }
+        
+      ]
+    },
+    {
+      "artist": "Kanye West",
+      "albums": [
+        {
+          "title": "The College Dropout",
+          "tracks": [
+            "Intro",
+            "We Don't Care",
+            "Graduation Day",
+            "All Falls Down",
+            "I'll Fly Away",
+            "Spaceship",
+            "Jesus Walks",
+            "Never Let Me Down",
+            "Get Em High",
+            "Workout Plan",
+            "The New Workout Plan",
+            "Slow Jamz",
+            "Breathe In Breathe Out",
+            "School Spirit Skit 1",
+            "School Spirit",
+            "School Spirit Skit 2",
+            "Lil Jimmy Skit",
+            "Two Words",
+            "Through the Wire",
+            "Family Business",
+            "Last Call"
+          ]
+        },
+        {
+          "title": "My Beautiful Dark Twisted Fantasy",
+          "tracks": [
+            "Dark Fantasy",
+            "Gorgeous",
+            "POWER",
+            "All of the Lights (Interlude)",
+            "All of the Lights",
+            "Monster",
+            "So Appalled",
+            "Devil in a New Dress",
+            "Runaway",
+            "Hell of a Life",
+            "Blame Game",
+            "Lost in the World",
+            "Who Will Survive in America"
+          ]
+        }
+        
+      ]
+    },
+    {
+      "artist": "Ludwig van Beethoven",
+      "albums": [
+        {
+          "title": "Symphony No. 9",
+          "tracks": [
+            "I. Allegro ma non troppo, un poco maestoso",
+            "II. Molto vivace",
+            "III. Adagio molto e cantabile",
+            "IV. Presto"
+          ]
+        },
+        {
+          "title": "Piano Sonata No. 14 (Moonlight Sonata)",
+          "tracks": [
+            "I. Adagio sostenuto",
+            "II. Allegretto",
+            "III. Presto agitato"
+          ]
+        }
+        
+      ]
+    }
+    
+  ]
+  
