@@ -7,7 +7,7 @@
       "pop": 4,
       "jazz": 3,
       "hip-hop": 2,
-      "classical": 5
+      "hardcore": 0
     },
     "artists": [
       "Queen",
@@ -21,12 +21,11 @@
     "id": 2,
     "name": "Jamal",
     "genres": {
-      "blues": 5,
-      "country": 4,
-      "electronic": 3,
-      "reggae": 5,
-      "soul": 4,
-      "alt-rock": 3
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "B.B. King",
@@ -40,32 +39,25 @@
     "id": 3,
     "name": "Jomarie",
     "genres": {
-      "metal": 5,
-      "folk": 4,
-      "disco": 3,
-      "funk": 5,
-      "black-metal": 2
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Metallica",
-      "Bob Dylan",
-      "Bee Gees",
-      "James Brown",
-      "Burzum"
-    ]
+    "artists": ["Metallica", "Bob Dylan", "Bee Gees", "James Brown", "Burzum"]
   },
   {
     "id": 4,
     "name": "Dave",
     "genres": {
-      "punk": 3,
-      "r&b": 5
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "The Ramones",
-      "Usher",
-      "The Specials"
-    ]
+    "artists": ["The Ramones", "Usher", "The Specials"]
   },
   {
     "id": 5,
@@ -75,7 +67,7 @@
       "pop": 4,
       "jazz": 3,
       "hip-hop": 5,
-      "classical": 4
+      "hardcore": 0
     },
     "artists": [
       "The Beatles",
@@ -89,11 +81,11 @@
     "id": 6,
     "name": "James",
     "genres": {
-      "blues": 5,
-      "country": 4,
-      "electronic": 3,
-      "reggae": 5,
-      "soul": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "Muddy Waters",
@@ -107,31 +99,25 @@
     "id": 7,
     "name": "Percy",
     "genres": {
-      "metal": 5,
-      "folk": 4,
-      "disco": 3,
-      "funk": 5
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Iron Maiden",
-      "Joan Baez",
-      "Chic",
-      "Sly and the Family Stone"
-    ]
+    "artists": ["Iron Maiden", "Joan Baez", "Chic", "Sly and the Family Stone"]
   },
   {
     "id": 8,
     "name": "Donz",
     "genres": {
-      "punk": 3,
-      "r&b": 5
-    
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Green Day",
-      "Beyoncé",
-      "Madness"
-    ]
+    "artists": ["Green Day", "Beyoncé", "Madness"]
   },
   {
     "id": 9,
@@ -141,7 +127,7 @@
       "pop": 4,
       "jazz": 3,
       "hip-hop": 2,
-      "classical": 5
+      "hardcore": 0
     },
     "artists": [
       "Led Zeppelin",
@@ -155,11 +141,11 @@
     "id": 10,
     "name": "Venice",
     "genres": {
-      "blues": 5,
-      "country": 4,
-      "electronic": 3,
-      "reggae": 5,
-      "soul": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "John Lee Hooker",
@@ -173,25 +159,23 @@
     "id": 11,
     "name": "Clara",
     "genres": {
-      "indie": 4,
-      "indie-pop": 5,
-      "pop": 3
+      "rock": 0,
+      "pop": 3,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Bon Iver",
-      "Lorde",
-      "Eraserheads"
-    ]
+    "artists": ["Bon Iver", "Lorde", "Eraserheads"]
   },
   {
     "id": 12,
     "name": "Liam",
     "genres": {
-      "metalcore": 5,
-      "hardcore": 4,
-      "alt-rock": 3,
-      "punk-rock": 5,
-      "grunge": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 4
     },
     "artists": [
       "Bring Me the Horizon",
@@ -205,99 +189,82 @@
     "id": 13,
     "name": "Aria",
     "genres": {
-      "classical": 5,
-      "j-pop": 4,
-      "piano": 3
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Yiruma",
-      "Kenshi Yonezu",
-      "Rachmaninoff"
-    ]
+    "artists": ["Yiruma", "Kenshi Yonezu", "Rachmaninoff"]
   },
   {
     "id": 14,
     "name": "Marcus",
     "genres": {
-      "hard-rock": 5,
-      "heavy-metal": 4,
-      "death-metal": 3,
-      "j-rock": 5
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "AC/DC",
-      "Slayer",
-      "Slipknot",
-      "X Japan"
-    ]
+    "artists": ["AC/DC", "Slayer", "Slipknot", "X Japan"]
   },
   {
     "id": 15,
     "name": "Hannah",
     "genres": {
-      "k-pop": 5,
-      "funk": 4,
-      "pop": 3
+      "rock": 0,
+      "pop": 3,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "BTS",
-      "Rihanna",
-      "Bruno Mars",
-      "Mariah Carey"
-    ]
+    "artists": ["BTS", "Rihanna", "Bruno Mars", "Mariah Carey"]
   },
   {
     "id": 16,
     "name": "Nina",
     "genres": {
-      "folk": 5,
-      "guitar": 4,
-      "indie": 3,
-      "jazz": 5
+      "rock": 0,
+      "pop": 0,
+      "jazz": 5,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Fleet Foxes",
-      "Norah Jones",
-      "Bebel Gilberto",
-      "Nicolas Jaar"
-    ]
+    "artists": ["Fleet Foxes", "Norah Jones", "Bebel Gilberto", "Nicolas Jaar"]
   },
   {
     "id": 17,
     "name": "Andre",
     "genres": {
-      "dubstep": 5,
-      "house": 4,
-      "electronic": 3
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Skrillex",
-      "Disclosure",
-      "Calvin Harris"
-    ]
+    "artists": ["Skrillex", "Disclosure", "Calvin Harris"]
   },
   {
     "id": 18,
     "name": "Sophia",
     "genres": {
-      "anime": 5,
-      "new-age": 4,
-      "piano": 3
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "Joe Hisaishi",
-      "Erik Satie",
-      "Ben&Ben"
-    ]
+    "artists": ["Joe Hisaishi", "Erik Satie", "Ben&Ben"]
   },
   {
     "id": 19,
     "name": "Ethan",
     "genres": {
-      "alt-rock": 5,
-      "black-metal": 4,
-      "emo": 3,
-      "goth": 5,
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
       "hardcore": 4
     },
     "artists": [
@@ -312,10 +279,11 @@
     "id": 20,
     "name": "Mira",
     "genres": {
-      "anime": 5,
-      "edm": 4,
-      "k-pop": 3,
-      "electronic": 5
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "Kyary Pamyu Pamyu",
@@ -329,11 +297,11 @@
     "id": 21,
     "name": "Alex",
     "genres": {
-      "acoustic": 5,
-      "alt-rock": 4,
-      "ambient": 3,
-      "black-metal": 5,
-      "folk": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "Ed Sheeran",
@@ -347,11 +315,11 @@
     "id": 22,
     "name": "Bella",
     "genres": {
-      "blues": 5,
-      "bossanova": 4,
-      "electronic": 3,
-      "reggae": 5,
-      "soul": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "B.B. King",
@@ -365,10 +333,11 @@
     "id": 23,
     "name": "Charlie",
     "genres": {
-      "classical": 5,
-      "country": 4,
-      "dance": 3,
-      "pop": 5
+      "rock": 0,
+      "pop": 5,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "Ludwig van Beethoven",
@@ -381,29 +350,23 @@
     "id": 24,
     "name": "Diana",
     "genres": {
-      "death-metal": 5,
-      "deep-house": 4,
-      "disco": 3,
-      "electronic": 5,
-      "hip-hop": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 4,
+      "hardcore": 0
     },
-    "artists": [
-      "Cannibal Corpse",
-      "MK",
-      "Bee Gees",
-      "Kanye West",
-      "Goldie"
-    ]
+    "artists": ["Cannibal Corpse", "MK", "Bee Gees", "Kanye West", "Goldie"]
   },
   {
     "id": 25,
     "name": "Eli",
     "genres": {
-      "dubstep": 5,
-      "edm": 4,
-      "electro": 3,
-      "emo": 5,
-      "folk": 4
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
     "artists": [
       "Skrillex",
@@ -417,76 +380,60 @@
     "id": 26,
     "name": "Finn",
     "genres": {
-      "funk": 5,
-      "garage": 4,
-      "goth": 3,
-      "grunge": 5
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "James Brown",
-      "The Strokes",
-      "The Cure",
-      "Nirvana"
-    ]
+    "artists": ["James Brown", "The Strokes", "The Cure", "Nirvana"]
   },
   {
     "id": 27,
     "name": "Gina",
     "genres": {
-      "grindcore": 5,
-      "groove": 4,
-      "hard-rock": 3,
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
       "hardcore": 5
     },
-    "artists": [
-      "Napalm Death",
-      "Pantera",
-      "AC/DC",
-      "Bad Brains"
-    ]
+    "artists": ["Napalm Death", "Pantera", "AC/DC", "Bad Brains"]
   },
   {
     "id": 28,
     "name": "Hank",
     "genres": {
-      "heavy-metal": 5,
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
       "hip-hop": 4,
-      "electronic": 3
+      "hardcore": 0
     },
-    "artists": [
-      "Metallica",
-      "Kanye West",
-      "Aphex Twin"
-    ]
+    "artists": ["Metallica", "Kanye West", "Aphex Twin"]
   },
   {
     "id": 29,
     "name": "Ivy",
     "genres": {
-      "indie": 5,
-      "indie-pop": 4,
-      "j-pop": 3
+      "rock": 0,
+      "pop": 0,
+      "jazz": 0,
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "The Strokes",
-      "Lorde",
-      "Kenshi Yonezu"
-    ]
+    "artists": ["The Strokes", "Lorde", "Kenshi Yonezu"]
   },
   {
     "id": 30,
     "name": "Jack",
     "genres": {
-      "j-rock": 5,
+      "rock": 0,
+      "pop": 5,
       "jazz": 4,
-      "k-pop": 3,
-      "pop": 5
+      "hip-hop": 0,
+      "hardcore": 0
     },
-    "artists": [
-      "X Japan",
-      "Kendrick Lamar",
-      "BTS",
-      "Taylor Swift"
-    ]
+    "artists": ["X Japan", "Kendrick Lamar", "BTS", "Taylor Swift"]
   }
 ]
