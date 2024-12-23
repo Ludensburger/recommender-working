@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,15 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
   <div class="container">
     <div class="sidebar">
-      <h3>Menu</h3>
+
+  <div class="logo">
+    <img src="https://static.thenounproject.com/png/88578-200.png" alt="Logo" class="logo-img">
+  </div>
+      <h3 >Menu</h3>
       <ul>
         <li><i class="fas fa-music"></i> Songs</li>
         <li><i class="fas fa-compact-disc"></i> Albums</li>
@@ -25,13 +31,15 @@
         <div class="title-card">
           <div class="banner-container">
             <h1>Octave</h1>
-            <img src="https://cdna.artstation.com/p/assets/images/images/061/159/670/large/julien-wacquez-warhammer-40k-blood-angels-landscape-mars-2023.jpg?1680132562" alt="banner">
+            <img
+              src="https://cdna.artstation.com/p/assets/images/images/061/159/670/large/julien-wacquez-warhammer-40k-blood-angels-landscape-mars-2023.jpg?1680132562"
+              alt="banner">
           </div>
         </div>
         <div class="profile-card">
           <img src="./resources/ryu.jpg" alt="Profile Photo" class="profile-photo">
           <div class="profile-info">
-            <p style="font-weight: bold">Ryu R Mendoza</p>
+            <p style="font-weight: bold">Ryu Mendoza</p>
             <p>Premium</p>
             <p>1.2k Followers</p>
           </div>
@@ -41,11 +49,11 @@
         <div class="section">
           <h2>Popular</h2>
           <div class="grid">
-            <div class="card1">Artist 1</div>
-            <div class="card2">Artist 2</div>
-            <div class="card3">Artist 3</div>
-            <div class="card4">Artist 4</div>
-            <div class="card5">Artist 5</div>
+            <div class="card card1">Artist 1</div>
+            <div class="card card2">Artist 2</div>
+            <div class="card card3">Artist 3</div>
+            <div class="card card4">Artist 4</div>
+            <div class="card card5">Artist 5</div>
           </div>
         </div>
         <div class="section">
@@ -58,68 +66,89 @@
             <div class="card">Song 5</div>
           </div>
         </div>
-        <!-- 
-        <div class="section">
+        <div class="section" id="recommended-genres-section" style="display: none;">
           <h2>Recommended for You</h2>
-          <div class="grid">
-            <div class="card">Music</div>
-            <div class="card">Sports</div>
-            <div class="card">News</div>
-            <div class="card">Podcasts</div>
-            <div class="card">More</div>
+          <div class="grid" id="recommended-genres">
+            <!-- Recommended genres will be inserted here -->
           </div>
         </div>
-         -->
+        <div class="section" id="recommended-artists-section" style="display: none;">
+          <h2>Recommended Artists</h2>
+          <div class="grid" id="recommended-artists">
+            <!-- Recommended artists will be inserted here -->
+          </div>
+        </div>
       </div>
       <div id="recommendation-content" class="dynamic" style="display: none;">
         <div class="genre-cards">
-          <div class="genre-card" data-genre="rock" onclick="openModal('rock')">Rock</div>
-          <div class="genre-card" data-genre="metal" onclick="openModal('metal')">Metal</div>
-          <div class="genre-card" data-genre="jazz" onclick="openModal('jazz')">Jazz</div>
-          <div class="genre-card" data-genre="hip-hop" onclick="openModal('hip-hop')">Hip-Hop</div>
-          <div class="genre-card" data-genre="hardcore" onclick="openModal('hardcore')">Hardcore</div>
-          <div class="genre-card" data-genre="pop" onclick="openModal('pop')">Pop</div>
-          <div class="genre-card" data-genre="classical" onclick="openModal('classical')">Classical</div>
-          <div class="genre-card" data-genre="country" onclick="openModal('country')">Country</div>
-          <div class="genre-card" data-genre="electronic" onclick="openModal('electronic')">Electronic</div>
-          <div class="genre-card" data-genre="reggae" onclick="openModal('reggae')">Reggae</div>
-          <div class="genre-card" data-genre="blues" onclick="openModal('blues')">Blues</div>
-          <div class="genre-card" data-genre="folk" onclick="openModal('folk')">Folk</div>
-          <div class="genre-card" data-genre="funk" onclick="openModal('funk')">Funk</div>
-          <div class="genre-card" data-genre="soul" onclick="openModal('soul')">Soul</div>
-          <div class="genre-card" data-genre="punk" onclick="openModal('punk')">Punk</div>
-          <div class="genre-card" data-genre="indie" onclick="openModal('indie')">Indie</div>
-          <div class="genre-card" data-genre="r&b" onclick="openModal('r&b')">R&B</div>
-          <div class="genre-card" data-genre="latin" onclick="openModal('latin')">Latin</div>
-          <div class="genre-card" data-genre="world" onclick="openModal('world')">World</div>
-          <div class="genre-card" data-genre="ambient" onclick="openModal('ambient')">Ambient</div>
-          <div class="genre-card" data-genre="dance" onclick="openModal('dance')">Dance</div>
-        </div>
-
-        <label for="artists">Favorite Artists (comma-separated):</label>
-        <input type="text" id="artists" name="artists">
-
-        <button type="submit" onclick="getRecommendations()">Get Recommendations</button>
-
-        <div id="modal" class="modal">
-          <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2 id="modal-genre">Genre</h2>
-            <input type="range" id="genre-slider" min="0" max="5" step="1">
-            <button onclick="saveRating()">Save</button>
+          <div class="genre-category">
+            <h3>Rock</h3>
+            <div class="genre-card" data-genre="rock" onclick="openModal('rock')">Rock</div>
+            <div class="genre-card" data-genre="metal" onclick="openModal('metal')">Metal</div>
+            <div class="genre-card" data-genre="punk" onclick="openModal('punk')">Punk</div>
+            <div class="genre-card" data-genre="indie" onclick="openModal('indie')">Indie</div>
           </div>
+          <div class="genre-category">
+            <h3>Jazz & Blues</h3>
+            <div class="genre-card" data-genre="jazz" onclick="openModal('jazz')">Jazz</div>
+            <div class="genre-card" data-genre="blues" onclick="openModal('blues')">Blues</div>
+          </div>
+          <div class="genre-category">
+            <h3>Hip-Hop & RnB</h3>
+            <div class="genre-card" data-genre="hip-hop" onclick="openModal('hip-hop')">Hip-Hop</div>
+            <div class="genre-card" data-genre="r&b" onclick="openModal('r&b')">R&B</div>
+            <div class="genre-card" data-genre="funk" onclick="openModal('funk')">Funk</div>
+            <div class="genre-card" data-genre="soul" onclick="openModal('soul')">Soul</div>
+          </div>
+          <div class="genre-category">
+            <h3>Pop</h3>
+            <div class="genre-card" data-genre="pop" onclick="openModal('pop')">Pop</div>
+            <div class="genre-card" data-genre="dance" onclick="openModal('dance')">Dance</div>
+          </div>
+          <div class="genre-category">
+            <h3>Classical & World</h3>
+            <div class="genre-card" data-genre="classical" onclick="openModal('classical')">Classical</div>
+            <div class="genre-card" data-genre="world" onclick="openModal('world')">World</div>
+            <div class="genre-card" data-genre="latin" onclick="openModal('latin')">Latin</div>
+            <div class="genre-card" data-genre="ambient" onclick="openModal('ambient')">Ambient</div>
+          </div>
+          <div class="genre-category">
+            <h3>Country & Folk</h3>
+            <div class="genre-card" data-genre="country" onclick="openModal('country')">Country</div>
+            <div class="genre-card" data-genre="folk" onclick="openModal('folk')">Folk</div>
+          </div>
+          <div class="genre-category">
+            <h3>Electronic</h3>
+            <div class="genre-card" data-genre="electronic" onclick="openModal('electronic')">Electronic</div>
+          </div>
+          <div class="genre-category">
+            <h3>Reggae</h3>
+            <div class="genre-card" data-genre="reggae" onclick="openModal('reggae')">Reggae</div>
+          </div>
+
+          
+     
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h2 id="modal-genre">Genre</h2>
+              <input type="range" id="genre-slider" min="0" max="10" step="1">
+              <button onclick="saveRating()">Save</button>
+            </div>
+
+          </div>
+
+          
         </div>
 
-        <div class="results" id="results">
-          <h2>Recommendations</h2>
-          <div id="recommendedGenres" class="card"></div>
-          <div id="recommendedArtists" class="card"></div>
+        <div class="input-artist">
+          <label for="artists">Favorite Artists (comma-separated):</label>
+          <input type="text" id="artists" name="artists">
+          <button type="submit" onclick="getRecommendations()">Get Recommendations</button>
         </div>
       </div>
-    </div>
-  </div>
-
-  <script src="recommender-system.js"></script>
-    <script src="get-top-artists.js"></script>
+      <script src="recommender-system.js"></script>
+      <script src="get-top-artists.js"></script>
 </body>
+
 </html>
