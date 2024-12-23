@@ -21,8 +21,13 @@ function saveRating() {
 
 function updateGenreCardColor(genre, rating) {
   const genreCard = document.querySelector(`.genre-card[data-genre="${genre}"]`);
-  const tint = 255 - (rating * 51); // Darker for higher ratings
-  genreCard.style.backgroundColor = `rgb(${tint}, ${tint}, ${tint})`;
+  if (genreCard) {
+    const tint = 190 - (rating * 15); // Darker for higher ratings
+    const lightness = 0.4 + (rating * 0.06); // Darker for higher ratings
+    genreCard.style.backgroundColor = `rgba(${tint}, 40, 255, ${lightness})`;
+  } else {
+    console.error(`Genre card for genre "${genre}" not found.`);
+  }
 }
 
 function getRecommendations() {
@@ -51,60 +56,32 @@ function getRecommendations() {
 }
 
 function displayResults(recommendations) {
-  const resultsDiv = document.getElementById('results');
-  let resultsHTML = `<h2>Recommendations</h2>`;
+  const recommendedGenresSection = document.getElementById('recommended-genres-section');
+  const recommendedArtistsSection = document.getElementById('recommended-artists-section');
 
-  const genresSection = recommendations.recommendedGenres ? `
-    <div class="card">
-      <h3>Recommended Genres:</h3>
-      <div class="grid">
-        ${recommendations.recommendedGenres.map(genre => `
-          <div class="card">${genre}</div>
-        `).join('')}
-      </div>
-    </div>
-    <div class="card">
-      <h3>Similar Users by Genres:</h3>
-      <div class="grid">
-        ${recommendations.similarUsersByGenres.map(({ user, similarity }) => `
-          <div class="user-card">
-            <strong>User:</strong> ${user.name}<br>
-            <strong>Similarity:</strong> ${similarity.toFixed(2)}<br>
-            <strong>Genres:</strong> ${JSON.stringify(user.genres)}
-          </div>
-        `).join('')}
-      </div>
-    </div>
-  ` : '';
+  if (recommendations.recommendedGenres) {
+    recommendedGenresSection.style.display = 'block';
+    const recommendedGenresGrid = document.getElementById('recommended-genres');
+    recommendedGenresGrid.innerHTML = recommendations.recommendedGenres.map(genre => `
+      <div class="card">${genre}</div>
+    `).join('');
+  } else {
+    recommendedGenresSection.style.display = 'none';
+  }
 
-  const artistsSection = recommendations.recommendedArtists ? `
-    <div class="card">
-      <h3>Recommended Artists:</h3>
-      <div class="grid">
-        ${recommendations.recommendedArtists.map(artist => `
-          <div class="card">${artist}</div>
-        `).join('')}
-      </div>
-    </div>
-    <div class="card">
-      <h3>Similar Users by Artists:</h3>
-      <div class="grid">
-        ${recommendations.similarUsersByArtists.map(({ user, similarity }) => `
-          <div class="user-card">
-            <strong>User:</strong> ${user.name}<br>
-            <strong>Similarity:</strong> ${similarity.toFixed(2)}<br>
-            <strong>Artists:</strong> ${user.artists.join(", ")}
-          </div>
-        `).join('')}
-      </div>
-    </div>
-  ` : '';
+  if (recommendations.recommendedArtists) {
+    recommendedArtistsSection.style.display = 'block';
+    const recommendedArtistsGrid = document.getElementById('recommended-artists');
+    recommendedArtistsGrid.innerHTML = recommendations.recommendedArtists.map(artist => `
+      <div class="card">${artist}</div>
+    `).join('');
+  } else {
+    recommendedArtistsSection.style.display = 'none';
+  }
 
-  resultsHTML += genresSection + artistsSection;
-  resultsDiv.innerHTML = resultsHTML;
+  document.getElementById('recommendation-content').style.display = 'none';
+  document.getElementById('default-content').style.display = 'block';
 }
-
-
 
 function showRecommendationForm() {
   document.getElementById('default-content').style.display = 'none';
