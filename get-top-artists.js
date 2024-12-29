@@ -1,17 +1,28 @@
 document.addEventListener("DOMContentLoaded", async () => {
   console.log("Getting Top Artists");
 
+  const userFiles = [
+    "./data/users1.json",
+    "./data/users2.json",
+    "./data/users3.json",
+    "./data/users4.json",
+    "./data/users5.json",
+  ];
+
   try {
-    const response = await fetch("users1.json");
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
+    const allUsers = await loadUserFiles(userFiles);
+
+    if (allUsers.length === 0) {
+      throw new Error("No user data available - all files failed to load");
     }
-    const users = await response.json();
-    console.log("Fetched users:", users); // Debugging statement
+
+    console.log(
+      `Loaded ${allUsers.length} users from ${userFiles.length} files`
+    );
 
     const artistCount = new Map();
 
-    users.forEach((user) => {
+    allUsers.forEach((user) => {
       user.artists.forEach((artist) => {
         artistCount.set(artist, (artistCount.get(artist) || 0) + 1);
       });
@@ -40,3 +51,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.querySelector(".card5").textContent = "Error";
   }
 });
+
+async function loadUserFiles(filePaths) {
+  const fetchPromises = filePaths.map(async (filePath) => {
+    try {
+      const response = await fetch(filePath);
+      if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+      return await response.json();
+    } catch (error) {
+      console.warn(`Error loading ${filePath}:`, error);
+      return [];
+    }
+  });
+
+  const results = await Promise.all(fetchPromises);
+  return results.flat();
+}
