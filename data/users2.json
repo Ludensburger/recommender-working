@@ -1,0 +1,1082 @@
+[
+    {
+        "id": 61,
+        "name": "Alex",
+        "genres": {
+            "pop": 5,
+            "rock": 4,
+            "indie": 3,
+            "jazz": 2,
+            "classical": 1
+        },
+        "artists": [
+            "Taylor Swift",
+            "Coldplay",
+            "The Strokes",
+            "Miles Davis",
+            "Ludovico Einaudi"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Brian",
+        "genres": {
+            "hiphop": 5,
+            "rap": 4,
+            "rnb": 3,
+            "soul": 2,
+            "funk": 1
+        },
+        "artists": [
+            "Kendrick Lamar",
+            "Drake",
+            "The Weeknd",
+            "Aretha Franklin",
+            "James Brown"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Chris",
+        "genres": {
+            "country": 5,
+            "folk": 4,
+            "blues": 3,
+            "bluegrass": 2,
+            "americana": 1
+        },
+        "artists": [
+            "Johnny Cash",
+            "Bob Dylan",
+            "B.B. King",
+            "Alison Krauss",
+            "The Lumineers"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Dana",
+        "genres": {
+            "metal": 5,
+            "hardrock": 4,
+            "punk": 3,
+            "grunge": 2,
+            "alternative": 1
+        },
+        "artists": [
+            "Metallica",
+            "AC/DC",
+            "The Ramones",
+            "Nirvana",
+            "Radiohead"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Ella",
+        "genres": {
+            "reggae": 5,
+            "ska": 4,
+            "dub": 3,
+            "dancehall": 2,
+            "calypso": 1
+        },
+        "artists": [
+            "Bob Marley",
+            "Peter Tosh",
+            "Lee Scratch Perry",
+            "Shaggy",
+            "Harry Belafonte"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Frank",
+        "genres": {
+            "electronic": 5,
+            "house": 4,
+            "techno": 3,
+            "trance": 2,
+            "dubstep": 1
+        },
+        "artists": [
+            "Daft Punk",
+            "Deadmau5",
+            "Tiesto",
+            "Armin van Buuren",
+            "Skrillex"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Grace",
+        "genres": {
+            "latin": 5,
+            "salsa": 4,
+            "bachata": 3,
+            "merengue": 2,
+            "reggaeton": 1
+        },
+        "artists": [
+            "Shakira",
+            "Marc Anthony",
+            "Romeo Santos",
+            "Juan Luis Guerra",
+            "Daddy Yankee"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Hank",
+        "genres": {
+            "jazz": 5,
+            "blues": 4,
+            "soul": 3,
+            "funk": 2,
+            "rnb": 1
+        },
+        "artists": [
+            "Miles Davis",
+            "John Coltrane",
+            "Ray Charles",
+            "James Brown",
+            "Stevie Wonder"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Ivy",
+        "genres": {
+            "pop": 5,
+            "dance": 4,
+            "electropop": 3,
+            "synthpop": 2,
+            "indiepop": 1
+        },
+        "artists": [
+            "Madonna",
+            "Britney Spears",
+            "Lady Gaga",
+            "Robyn",
+            "Lorde"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Jack",
+        "genres": {
+            "rock": 5,
+            "alternative": 4,
+            "punk": 3,
+            "grunge": 2,
+            "metal": 1
+        },
+        "artists": [
+            "Led Zeppelin",
+            "Nirvana",
+            "The Clash",
+            "Pearl Jam",
+            "Metallica"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Kate",
+        "genres": {
+            "classical": 5,
+            "opera": 4,
+            "baroque": 3,
+            "romantic": 2,
+            "modern": 1
+        },
+        "artists": [
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach",
+            "Giuseppe Verdi",
+            "Igor Stravinsky"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Leo",
+        "genres": {
+            "hiphop": 5,
+            "rap": 4,
+            "trap": 3,
+            "rnb": 2,
+            "soul": 1
+        },
+        "artists": [
+            "Kanye West",
+            "Jay-Z",
+            "Travis Scott",
+            "The Weeknd",
+            "Alicia Keys"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Mia",
+        "genres": {
+            "country": 5,
+            "bluegrass": 4,
+            "folk": 3,
+            "americana": 2,
+            "blues": 1
+        },
+        "artists": [
+            "Dolly Parton",
+            "Willie Nelson",
+            "Emmylou Harris",
+            "The Avett Brothers",
+            "Bonnie Raitt"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Nina",
+        "genres": {
+            "metal": 5,
+            "hardrock": 4,
+            "punk": 3,
+            "grunge": 2,
+            "alternative": 1
+        },
+        "artists": [
+            "Black Sabbath",
+            "Iron Maiden",
+            "The Ramones",
+            "Soundgarden",
+            "Radiohead"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Oscar",
+        "genres": {
+            "reggae": 5,
+            "ska": 4,
+            "dub": 3,
+            "dancehall": 2,
+            "calypso": 1
+        },
+        "artists": [
+            "Bob Marley",
+            "Toots and the Maytals",
+            "Lee Scratch Perry",
+            "Sean Paul",
+            "Harry Belafonte"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Paul",
+        "genres": {
+            "electronic": 5,
+            "house": 4,
+            "techno": 3,
+            "trance": 2,
+            "dubstep": 1
+        },
+        "artists": [
+            "The Chemical Brothers",
+            "Calvin Harris",
+            "David Guetta",
+            "Paul Oakenfold",
+            "Bassnectar"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Quinn",
+        "genres": {
+            "latin": 5,
+            "salsa": 4,
+            "bachata": 3,
+            "merengue": 2,
+            "reggaeton": 1
+        },
+        "artists": [
+            "Jennifer Lopez",
+            "Celia Cruz",
+            "Aventura",
+            "Héctor Lavoe",
+            "Bad Bunny"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Rose",
+        "genres": {
+            "jazz": 5,
+            "blues": 4,
+            "soul": 3,
+            "funk": 2,
+            "rnb": 1
+        },
+        "artists": [
+            "Ella Fitzgerald",
+            "B.B. King",
+            "Etta James",
+            "Prince",
+            "Marvin Gaye"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Sam",
+        "genres": {
+            "pop": 5,
+            "dance": 4,
+            "electropop": 3,
+            "synthpop": 2,
+            "indiepop": 1
+        },
+        "artists": [
+            "Michael Jackson",
+            "Katy Perry",
+            "Ariana Grande",
+            "CHVRCHES",
+            "Florence and the Machine"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Tina",
+        "genres": {
+            "rock": 5,
+            "alternative": 4,
+            "punk": 3,
+            "grunge": 2,
+            "metal": 1
+        },
+        "artists": [
+            "The Rolling Stones",
+            "Foo Fighters",
+            "Green Day",
+            "Alice in Chains",
+            "Slipknot"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Uma",
+        "genres": {
+            "classical": 5,
+            "opera": 4,
+            "baroque": 3,
+            "romantic": 2,
+            "modern": 1
+        },
+        "artists": [
+            "Franz Schubert",
+            "Giacomo Puccini",
+            "Antonio Vivaldi",
+            "Richard Wagner",
+            "Dmitri Shostakovich"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Vince",
+        "genres": {
+            "hiphop": 5,
+            "rap": 4,
+            "trap": 3,
+            "rnb": 2,
+            "soul": 1
+        },
+        "artists": [
+            "Eminem",
+            "Lil Wayne",
+            "Future",
+            "Usher",
+            "Lauryn Hill"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Wendy",
+        "genres": {
+            "country": 5,
+            "bluegrass": 4,
+            "folk": 3,
+            "americana": 2,
+            "blues": 1
+        },
+        "artists": [
+            "Garth Brooks",
+            "Patsy Cline",
+            "John Prine",
+            "The Civil Wars",
+            "Bonnie Raitt"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Xander",
+        "genres": {
+            "metal": 5,
+            "hardrock": 4,
+            "punk": 3,
+            "grunge": 2,
+            "alternative": 1
+        },
+        "artists": [
+            "Pantera",
+            "Judas Priest",
+            "The Sex Pistols",
+            "Alice in Chains",
+            "Muse"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Yara",
+        "genres": {
+            "reggae": 5,
+            "ska": 4,
+            "dub": 3,
+            "dancehall": 2,
+            "calypso": 1
+        },
+        "artists": [
+            "Ziggy Marley",
+            "The Specials",
+            "King Tubby",
+            "Beenie Man",
+            "Harry Belafonte"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Zane",
+        "genres": {
+            "electronic": 5,
+            "house": 4,
+            "techno": 3,
+            "trance": 2,
+            "dubstep": 1
+        },
+        "artists": [
+            "Justice",
+            "Avicii",
+            "Carl Cox",
+            "Paul van Dyk",
+            "Flux Pavilion"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Amy",
+        "genres": {
+            "latin": 5,
+            "salsa": 4,
+            "bachata": 3,
+            "merengue": 2,
+            "reggaeton": 1
+        },
+        "artists": [
+            "Gloria Estefan",
+            "Tito Puente",
+            "Prince Royce",
+            "Juanes",
+            "Ozuna"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Ben",
+        "genres": {
+            "jazz": 5,
+            "blues": 4,
+            "soul": 3,
+            "funk": 2,
+            "rnb": 1
+        },
+        "artists": [
+            "Louis Armstrong",
+            "Muddy Waters",
+            "Otis Redding",
+            "James Brown",
+            "Stevie Wonder"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Cara",
+        "genres": {
+            "pop": 5,
+            "dance": 4,
+            "electropop": 3,
+            "synthpop": 2,
+            "indiepop": 1
+        },
+        "artists": [
+            "Whitney Houston",
+            "Rihanna",
+            "Dua Lipa",
+            "Charli XCX",
+            "Halsey"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Derek",
+        "genres": {
+            "rock": 5,
+            "alternative": 4,
+            "punk": 3,
+            "grunge": 2,
+            "metal": 1
+        },
+        "artists": [
+            "Pink Floyd",
+            "Red Hot Chili Peppers",
+            "The Offspring",
+            "Soundgarden",
+            "Slipknot"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Eva",
+        "genres": {
+            "classical": 5,
+            "opera": 4,
+            "baroque": 3,
+            "romantic": 2,
+            "modern": 1
+        },
+        "artists": [
+            "Franz Liszt",
+            "Gioachino Rossini",
+            "George Frideric Handel",
+            "Richard Strauss",
+            "Sergei Rachmaninoff"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Finn",
+        "genres": {
+            "hiphop": 5,
+            "rap": 4,
+            "trap": 3,
+            "rnb": 2,
+            "soul": 1
+        },
+        "artists": [
+            "J. Cole",
+            "Nicki Minaj",
+            "Lil Uzi Vert",
+            "Chris Brown",
+            "SZA"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Gina",
+        "genres": {
+            "country": 5,
+            "bluegrass": 4,
+            "folk": 3,
+            "americana": 2,
+            "blues": 1
+        },
+        "artists": [
+            "Carrie Underwood",
+            "Hank Williams",
+            "Gillian Welch",
+            "Jason Isbell",
+            "Bonnie Raitt"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Hugo",
+        "genres": {
+            "metal": 5,
+            "hardrock": 4,
+            "punk": 3,
+            "grunge": 2,
+            "alternative": 1
+        },
+        "artists": [
+            "Slayer",
+            "Megadeth",
+            "The Misfits",
+            "Stone Temple Pilots",
+            "Nine Inch Nails"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Iris",
+        "genres": {
+            "reggae": 5,
+            "ska": 4,
+            "dub": 3,
+            "dancehall": 2,
+            "calypso": 1
+        },
+        "artists": [
+            "Damian Marley",
+            "Desmond Dekker",
+            "Mad Professor",
+            "Buju Banton",
+            "Harry Belafonte"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Jake",
+        "genres": {
+            "electronic": 5,
+            "house": 4,
+            "techno": 3,
+            "trance": 2,
+            "dubstep": 1
+        },
+        "artists": [
+            "Swedish House Mafia",
+            "Zedd",
+            "Richie Hawtin",
+            "Above & Beyond",
+            "Excision"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Kara",
+        "genres": {
+            "latin": 5,
+            "salsa": 4,
+            "bachata": 3,
+            "merengue": 2,
+            "reggaeton": 1
+        },
+        "artists": [
+            "Enrique Iglesias",
+            "Gloria Estefan",
+            "Romeo Santos",
+            "Victor Manuelle",
+            "J Balvin"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Liam",
+        "genres": {
+            "jazz": 5,
+            "blues": 4,
+            "soul": 3,
+            "funk": 2,
+            "rnb": 1
+        },
+        "artists": [
+            "Herbie Hancock",
+            "Bessie Smith",
+            "Sam Cooke",
+            "Bootsy Collins",
+            "Stevie Wonder"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Maya",
+        "genres": {
+            "pop": 5,
+            "dance": 4,
+            "electropop": 3,
+            "synthpop": 2,
+            "indiepop": 1
+        },
+        "artists": [
+            "Selena Gomez",
+            "Kylie Minogue",
+            "Ellie Goulding",
+            "Grimes",
+            "Tove Lo"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Nate",
+        "genres": {
+            "rock": 5,
+            "alternative": 4,
+            "punk": 3,
+            "grunge": 2,
+            "metal": 1
+        },
+        "artists": [
+            "The Who",
+            "Smashing Pumpkins",
+            "Blink-182",
+            "Alice in Chains",
+            "Slipknot"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Olivia",
+        "genres": {
+            "classical": 5,
+            "opera": 4,
+            "baroque": 3,
+            "romantic": 2,
+            "modern": 1
+        },
+        "artists": [
+            "Johannes Brahms",
+            "Gaetano Donizetti",
+            "Henry Purcell",
+            "Gustav Mahler",
+            "Dmitri Shostakovich"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Peter",
+        "genres": {
+            "hiphop": 5,
+            "rap": 4,
+            "trap": 3,
+            "rnb": 2,
+            "soul": 1
+        },
+        "artists": [
+            "Nas",
+            "Cardi B",
+            "21 Savage",
+            "Trey Songz",
+            "Jill Scott"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Quincy",
+        "genres": {
+            "country": 5,
+            "bluegrass": 4,
+            "folk": 3,
+            "americana": 2,
+            "blues": 1
+        },
+        "artists": [
+            "Kenny Rogers",
+            "Loretta Lynn",
+            "Steve Earle",
+            "The Lumineers",
+            "Bonnie Raitt"
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Rachel",
+        "genres": {
+            "metal": 5,
+            "hardrock": 4,
+            "punk": 3,
+            "grunge": 2,
+            "alternative": 1
+        },
+        "artists": [
+            "Anthrax",
+            "Motörhead",
+            "The Damned",
+            "Pearl Jam",
+            "Deftones"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Steve",
+        "genres": {
+            "reggae": 5,
+            "ska": 4,
+            "dub": 3,
+            "dancehall": 2,
+            "calypso": 1
+        },
+        "artists": [
+            "Stephen Marley",
+            "The Skatalites",
+            "Scientist",
+            "Shabba Ranks",
+            "Harry Belafonte"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Tara",
+        "genres": {
+            "electronic": 5,
+            "house": 4,
+            "techno": 3,
+            "trance": 2,
+            "dubstep": 1
+        },
+        "artists": [
+            "Diplo",
+            "Kaskade",
+            "Sasha",
+            "Ferry Corsten",
+            "Zomboy"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Umar",
+        "genres": {
+            "latin": 5,
+            "salsa": 4,
+            "bachata": 3,
+            "merengue": 2,
+            "reggaeton": 1
+        },
+        "artists": [
+            "Luis Fonsi",
+            "Celia Cruz",
+            "Aventura",
+            "Elvis Crespo",
+            "Bad Bunny"
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Vera",
+        "genres": {
+            "jazz": 5,
+            "blues": 4,
+            "soul": 3,
+            "funk": 2,
+            "rnb": 1
+        },
+        "artists": [
+            "Duke Ellington",
+            "Robert Johnson",
+            "Aretha Franklin",
+            "Parliament-Funkadelic",
+            "Stevie Wonder"
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Will",
+        "genres": {
+            "pop": 5,
+            "dance": 4,
+            "electropop": 3,
+            "synthpop": 2,
+            "indiepop": 1
+        },
+        "artists": [
+            "Justin Timberlake",
+            "Jessie J",
+            "Carly Rae Jepsen",
+            "La Roux",
+            "Marina and the Diamonds"
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Xena",
+        "genres": {
+            "rock": 5,
+            "alternative": 4,
+            "punk": 3,
+            "grunge": 2,
+            "metal": 1
+        },
+        "artists": [
+            "The Doors",
+            "Nirvana",
+            "The Clash",
+            "Soundgarden",
+            "Slipknot"
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Yvonne",
+        "genres": {
+            "classical": 5,
+            "opera": 4,
+            "baroque": 3,
+            "romantic": 2,
+            "modern": 1
+        },
+        "artists": [
+            "Pyotr Ilyich Tchaikovsky",
+            "Giuseppe Verdi",
+            "Johann Sebastian Bach",
+            "Richard Wagner",
+            "Igor Stravinsky"
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Zack",
+        "genres": {
+            "hiphop": 5,
+            "rap": 4,
+            "trap": 3,
+            "rnb": 2,
+            "soul": 1
+        },
+        "artists": [
+            "Dr. Dre",
+            "Lil Wayne",
+            "Migos",
+            "Usher",
+            "Lauryn Hill"
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Ava",
+        "genres": {
+            "country": 5,
+            "bluegrass": 4,
+            "folk": 3,
+            "americana": 2,
+            "blues": 1
+        },
+        "artists": [
+            "Miranda Lambert",
+            "Willie Nelson",
+            "Emmylou Harris",
+            "The Avett Brothers",
+            "Bonnie Raitt"
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Blake",
+        "genres": {
+            "metal": 5,
+            "hardrock": 4,
+            "punk": 3,
+            "grunge": 2,
+            "alternative": 1
+        },
+        "artists": [
+            "Tool",
+            "Iron Maiden",
+            "The Ramones",
+            "Stone Temple Pilots",
+            "Radiohead"
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Cora",
+        "genres": {
+            "reggae": 5,
+            "ska": 4,
+            "dub": 3,
+            "dancehall": 2,
+            "calypso": 1
+        },
+        "artists": [
+            "Ziggy Marley",
+            "The Specials",
+            "King Tubby",
+            "Beenie Man",
+            "Harry Belafonte"
+        ]
+    },
+    {
+        "id": 116,
+        "name": "Dylan",
+        "genres": {
+            "electronic": 5,
+            "house": 4,
+            "techno": 3,
+            "trance": 2,
+            "dubstep": 1
+        },
+        "artists": [
+            "Justice",
+            "Avicii",
+            "Carl Cox",
+            "Paul van Dyk",
+            "Flux Pavilion"
+        ]
+    },
+    {
+        "id": 117,
+        "name": "Elena",
+        "genres": {
+            "latin": 5,
+            "salsa": 4,
+            "bachata": 3,
+            "merengue": 2,
+            "reggaeton": 1
+        },
+        "artists": [
+            "Shakira",
+            "Marc Anthony",
+            "Romeo Santos",
+            "Juan Luis Guerra",
+            "Daddy Yankee"
+        ]
+    },
+    {
+        "id": 118,
+        "name": "Felix",
+        "genres": {
+            "jazz": 5,
+            "blues": 4,
+            "soul": 3,
+            "funk": 2,
+            "rnb": 1
+        },
+        "artists": [
+            "Miles Davis",
+            "John Coltrane",
+            "Ray Charles",
+            "James Brown",
+            "Stevie Wonder"
+        ]
+    },
+    {
+        "id": 119,
+        "name": "Gwen",
+        "genres": {
+            "pop": 5,
+            "dance": 4,
+            "electropop": 3,
+            "synthpop": 2,
+            "indiepop": 1
+        },
+        "artists": [
+            "Madonna",
+            "Britney Spears",
+            "Lady Gaga",
+            "Robyn",
+            "Lorde"
+        ]
+    },
+    {
+        "id": 120,
+        "name": "Hector",
+        "genres": {
+            "rock": 5,
+            "alternative": 4,
+            "punk": 3,
+            "grunge": 2,
+            "metal": 1
+        },
+        "artists": [
+            "Led Zeppelin",
+            "Nirvana",
+            "The Clash",
+            "Pearl Jam",
+            "Metallica"
+        ]
+    }
+]
