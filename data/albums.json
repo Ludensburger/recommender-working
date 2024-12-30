@@ -1821,5 +1821,43 @@
         ]
       }
     ]
+  },
+  {
+    "artist": "Yo-Yo Ma",
+    "albums": [
+      {
+        "title": "Bach: The Six Unaccompanied Cello Suites",
+        "tracks": [
+          "Suite No. 1 in G Major, BWV 1007: I. Prelude",
+          "Suite No. 1 in G Major, BWV 1007: II. Allemande",
+          "Suite No. 1 in G Major, BWV 1007: III. Courante",
+          "Suite No. 1 in G Major, BWV 1007: IV. Sarabande",
+          "Suite No. 1 in G Major, BWV 1007: V. Menuet I & II",
+          "Suite No. 1 in G Major, BWV 1007: VI. Gigue",
+          "Suite No. 2 in D Minor, BWV 1008: I. Prelude",
+          "Suite No. 2 in D Minor, BWV 1008: II. Allemande",
+          "Suite No. 2 in D Minor, BWV 1008: III. Courante",
+          "Suite No. 2 in D Minor, BWV 1008: IV. Sarabande",
+          "Suite No. 2 in D Minor, BWV 1008: V. Menuet I & II",
+          "Suite No. 2 in D Minor, BWV 1008: VI. Gigue"
+        ]
+      },
+      {
+        "title": "Obrigado Brazil",
+        "tracks": [
+          "Bachianas Brasileiras No. 1",
+          "Bachianas Brasileiras No. 5: I. Aria (Cantilena)",
+          "Bachianas Brasileiras No. 5: II. Dansa (Martelo)",
+          "Tico-Tico no Fubá",
+          "Chega de Saudade",
+          "Garota de Ipanema",
+          "Águas de Março",
+          "Tristeza",
+          "Retratos Brasileiros",
+          "Cristal",
+          "Bachianas Brasileiras No. 9"
+        ]
+      }
+    ]
   }
 ]
