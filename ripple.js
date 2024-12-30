@@ -17,4 +17,19 @@ function createRipple(event) {
   }
 
   logo.appendChild(circle);
+
+  const recommenderDiv = document.getElementById("recommendation-content");
+  if (recommenderDiv) {
+    recommenderDiv.style.display = "none";
+  }
+
+  const defaultPage = document.getElementById("default-content");
+  if (defaultPage) {
+    defaultPage.style.display = "block";
+  }
+
+  const artistsDiv = document.getElementById("artists-content");
+  if (artistsDiv) {
+    artistsDiv.style.display = "none";
+  }
 }
