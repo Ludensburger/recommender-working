@@ -211,6 +211,30 @@ img.logo-img:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.artist1,
+.artist2,
+.artist3,
+.artist4,
+.artist5 {
+  background: #f2efea;
+  /* Apple's white */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000000;
+  /* Black text */
+  transition: box-shadow 0.3s ease;
+}
+
+.artist1:hover,
+.artist2:hover,
+.artist3:hover,
+.artist4:hover,
+.artist5:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .genre-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
