@@ -25,7 +25,9 @@
         <h2>Menu</h2>
         <ul>
           <li><i class="fas fa-music"></i> Songs</li>
-          <li><i class="fas fa-compact-disc"></i> Albums</li>
+          <li id="albumsPage" onclick="showAlbumsPage()">
+            <i class="fas fa-compact-disc"></i> Albums
+          </li>
           <li id="artistsPage" onclick="showArtistsPage()">
             <i class="fas fa-user"></i> Artists
           </li>
@@ -446,9 +448,27 @@
           </div>
         </div>
 
+        <div id="album-content" class="dynamic" style="display: none">
+          <div class="album-cards">
+            <div class="album-category">
+              <h3>Albums</h3>
+
+              <div id="album-list" class="album-list">
+                <!-- Album cards will be inserted here by get-all-albums.js -->
+              </div>
+
+              <p style="font-size: 0.8em; color: gray">
+                Note: Genre filtering may be inaccurate as this is just a
+                prototype project.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <script src="recommender-system.js"></script>
         <script src="get-top-artists.js"></script>
         <script src="get-all-artists.js"></script>
+        <script src="get-albums.js"></script>
         <script src="ripple.js"></script>
       </div>
     </div>
