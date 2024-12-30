@@ -37,18 +37,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     console.log("Top artists:", topArtists); // Debugging statement
 
-    document.querySelector(".card1").textContent = topArtists[0] || "N/A";
-    document.querySelector(".card2").textContent = topArtists[1] || "N/A";
-    document.querySelector(".card3").textContent = topArtists[2] || "N/A";
-    document.querySelector(".card4").textContent = topArtists[3] || "N/A";
-    document.querySelector(".card5").textContent = topArtists[4] || "N/A";
+    document.querySelector(".artist1").textContent = topArtists[0] || "N/A";
+    document.querySelector(".artist2").textContent = topArtists[1] || "N/A";
+    document.querySelector(".artist3").textContent = topArtists[2] || "N/A";
+    document.querySelector(".artist4").textContent = topArtists[3] || "N/A";
+    document.querySelector(".artist5").textContent = topArtists[4] || "N/A";
   } catch (error) {
     console.error("Error fetching users:", error);
-    document.querySelector(".card1").textContent = "Error";
-    document.querySelector(".card2").textContent = "Error";
-    document.querySelector(".card3").textContent = "Error";
-    document.querySelector(".card4").textContent = "Error";
-    document.querySelector(".card5").textContent = "Error";
+    document.querySelector(".artist1").textContent = "Error";
+    document.querySelector(".artist2").textContent = "Error";
+    document.querySelector(".artist3").textContent = "Error";
+    document.querySelector(".artist4").textContent = "Error";
+    document.querySelector(".artist5").textContent = "Error";
   }
 });
 
