@@ -42,9 +42,9 @@ async function getRecommendations() {
   const userFiles = [
     "./data/users1.json",
     "./data/users2.json",
-    "./data/users3.json",
-    "./data/users4.json",
-    "./data/users5.json",
+    // "./data/users3.json",
+    // "./data/users4.json",
+    // "./data/users5.json",
   ];
 
   try {
@@ -65,6 +65,8 @@ async function getRecommendations() {
         recommendGenres(genreRatings, allUsers);
       recommendations.recommendedGenres = recommendedGenres;
       recommendations.similarUsersByGenres = similarUsersByGenres;
+
+      console.log("Similar users by genres:", similarUsersByGenres);
     }
 
     if (inputUserArtists.length > 0) {
@@ -72,6 +74,8 @@ async function getRecommendations() {
         recommendArtists(inputUserArtists, allUsers);
       recommendations.recommendedArtists = recommendedArtists;
       recommendations.similarUsersByArtists = similarUsersByArtists;
+
+      console.log("Similar users by artists:", similarUsersByArtists);
     }
 
     displayResults(recommendations);
