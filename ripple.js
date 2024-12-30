@@ -32,4 +32,9 @@ function createRipple(event) {
   if (artistsDiv) {
     artistsDiv.style.display = "none";
   }
+
+  const albumDiv = document.getElementById("album-content");
+  if (albumDiv) {
+    albumDiv.style.display = "none";
+  }
 }
